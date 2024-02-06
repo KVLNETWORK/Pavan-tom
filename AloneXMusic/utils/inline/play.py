@@ -97,13 +97,6 @@ def stream_markup(_, chat_id):
                 url=f"t.me/{OWNER_USERNAME}",
 
             ),
-            InlineKeyboardButton(
-
-                text="💌 ɢʀᴏᴜᴘ",
-
-                url=f"{SUPPORT_CHAT}",
-
-            ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
