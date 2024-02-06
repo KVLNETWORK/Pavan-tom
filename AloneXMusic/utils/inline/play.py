@@ -74,13 +74,6 @@ def stream_markup_timer(_, chat_id, played, dur):
                 url=f"t.me/{OWNER_USERNAME}",
 
             ),
-            InlineKeyboardButton(
-
-                text="💌 ɢʀᴏᴜᴘ",
-
-                url=f"{SUPPORT_CHAT}",
-
-            ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
