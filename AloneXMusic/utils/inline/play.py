@@ -35,21 +35,21 @@ def stream_markup_timer(_, chat_id, played, dur):
     if 0 < umm <= 10:
         bar = "✄·─·─·─·─·─·─·─·─·─"
     elif 10 < umm < 20:
-        bar = "-ˋˏ✄·─·─·─·─·─·─·─·─"
+        bar = "join pvs movie"
     elif 20 <= umm < 30:
         bar = "-ˋˏ-ˋˏ✄·─·─·─·─·─·─·─"
     elif 30 <= umm < 40:
-        bar = "-ˋˏ-ˋˏ-ˋˏ✄·─·─·─·─·─·─"
+        bar = "join pvs movie"
     elif 40 <= umm < 50:
         bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·─·─·─·─·─"
     elif 50 <= umm < 60:
         bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·─·─·─·─"
     elif 60 <= umm < 70:
-        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·─·─·─"
+        bar = "join pvs movie"
     elif 70 <= umm < 80:
         bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·─·─"
     elif 80 <= umm < 95:
-        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·─"
+        bar = "join pvs movie"
     else:
         bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·"
     buttons = [
