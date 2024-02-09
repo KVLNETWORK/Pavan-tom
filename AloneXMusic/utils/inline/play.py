@@ -69,7 +69,7 @@ def stream_markup_timer(_, chat_id, played, dur):
                  [
             InlineKeyboardButton(
 
-                text="🇲‌🇴‌🇻‌🇮‌🇪‌🇸‌",
+                text="movies",
 
                 url=f"t.me/{UPSTREAM_REPO}",
 
