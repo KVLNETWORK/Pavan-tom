@@ -69,7 +69,7 @@ def stream_markup_timer(_, chat_id, played, dur):
                  [
             InlineKeyboardButton(
 
-                text="movies",
+                text="🇲‌🇴‌🇻‌🇮‌🇪‌🇸‌",
 
                 url=f"https://t.me/pvs_movies_updates",
 
